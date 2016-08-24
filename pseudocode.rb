@@ -17,9 +17,9 @@
 ### PSEUDOCODE EXAMPLE:  ##
 ###########################
 
-# PROGRAM DeafGrandma
+# PROGRAM dear_grandma method
 #     Keep LOOPING to get more input
-#
+#         Prompt user for input
 #         Ask what to say to grandma
 #
 #         IF we said "BYE"
@@ -45,7 +45,7 @@
 ###########################
 
 
-# def deaf_grandma
+# def dear_grandma
 #
 #     # Keep LOOPING to get more input
 #     while true
