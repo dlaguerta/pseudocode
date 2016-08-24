@@ -18,23 +18,38 @@
 ###########################
 
 # PROGRAM dear_grandma method
-#     Keep LOOPING to get more input
-#         Prompt user for input
-#         Ask what to say to grandma
-#
-#         IF we said "BYE"
-#             stop asking for more input and leave
-#         END
-#
-#         IF what I just said is too quiet
-#             Grandma responds "HUH!? SPEAK UP, SONNY!"
-#         ELSE
-#             Grandma responds "NO, NOT SINCE 1938!"
-#         END
-#
-#     END
-# END
+def dear_grandma
+#Keep LOOPING to get more input
+  while true
 
+#Prompt user for input
+  puts "say something to grandma"
+# Ask what to say to grandma
+  user_input = gets.chomp
+#
+#IF we said "BYE"
+    if user_input == "BYE"
+
+# stop asking for more input and leave
+        break
+
+    end
+# IF what I just said is too quiet
+    if user_input.upcase != user_input
+# Grandma responds "HUH!? SPEAK UP, SONNY!"
+        puts "HUH!? SPEAK UP, SONNY!"
+
+    else
+# Grandma responds "NO, NOT SINCE 1938!"
+        puts "NO, NOT SINCE 1938!"
+
+    end
+  end
+
+end
+
+
+dear_grandma
 
 
 
